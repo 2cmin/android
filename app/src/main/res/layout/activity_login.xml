@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 카카오 로그인 버튼 -->
+    <Button
+        android:id="@+id/kakao_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카카오 로그인"
+        android:layout_centerInParent="true" />
+
+    <!-- 로그아웃 버튼 -->
+    <Button
+        android:id="@+id/kakao_logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카카오 로그아웃"
+        android:layout_below="@id/kakao_login_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" /> <!-- 초기에는 숨김 -->
+</RelativeLayout>
