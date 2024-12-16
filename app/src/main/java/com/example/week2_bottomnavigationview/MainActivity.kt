@@ -5,8 +5,9 @@ import android.util.Log
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationBarView // NavigationBarView를 임포트
 
-class MainActivity : AppCompatActivity(), BottomNavigationView.OnItemSelectedListener {
+class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListener {
 
     // 멤버 변수 선언
     private lateinit var homeFragment: HomeFragment

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">week2_bottomNavigationView</string>
+    <string name="item_image_desc">Description of the item image</string>
 </resources>
